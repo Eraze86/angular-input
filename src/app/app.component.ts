@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { InvokeFunctionExpr } from '@angular/compiler';
+import { Component, Input } from '@angular/core';
+import { Animal } from './modules/animals';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angular-input';
+animal: Animal [] = [new Animal("cat", "black"), new Animal("dog", "brown")];
 }

@@ -2,10 +2,14 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { ChildComponent } from './components/child/child.component';
+import { PrintAnimalComponent } from './components/print-animal/print-animal.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ChildComponent,
+    PrintAnimalComponent
   ],
   imports: [
     BrowserModule

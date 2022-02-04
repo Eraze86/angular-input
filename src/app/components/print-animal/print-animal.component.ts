@@ -15,7 +15,7 @@ export class PrintAnimalComponent implements OnInit {
 
 isFed: boolean = false
   constructor() { }
-
+ 
   ngOnInit(): void {
   }
 

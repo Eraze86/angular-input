@@ -9,8 +9,13 @@ import { Animal } from './modules/animals';
 })
 export class AppComponent {
 animal: Animal [] = [new Animal("Cat", "Black", 4), new Animal("Dog", "Brown",  4)];
+
+animalGotFood = 0
+
 animalIsFeed(enAnimal:Animal){
  console.log(enAnimal)
+ this.animalGotFood++
+
 
 }
 

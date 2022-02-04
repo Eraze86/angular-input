@@ -1,4 +1,8 @@
-<p>Djur: {{ animal.name }}, Färg: {{ animal.color }}, Ben: {{ animal.legs }}</p>
+<p>Djur: {{ animal.name }}, Färg: {{ animal.color }}, Ben: {{ animal.legs }} 
+    <p *ngIf="isFed" > Yes!!</p>
+
+
 <button (click)="feedTheAnimal() ">Har ätit</button>
+
 
 

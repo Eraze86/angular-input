@@ -1,4 +1,6 @@
+
 <app-child></app-child> 
+<p> {{ animalGotFood}}</p>
 <app-print-animal *ngFor="let a of animal" [animal]="a" (fed)="animalIsFeed($event)"></app-print-animal>
 
 

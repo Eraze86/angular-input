@@ -1,14 +1,15 @@
 export class Animal {
     name: string;
     color: string;
-    food: boolean;
+    legs: number;
 
     constructor
         (name: string, 
         color: string,
+        legs: number
         ){ 
             this.name = name
             this.color = color
-            this.food = false 
+            this.legs = legs
     }
 }

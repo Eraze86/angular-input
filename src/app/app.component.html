@@ -1,4 +1,5 @@
-<app-print-animal *ngfor="let a of animal" [animal]="a"></app-print-animal>
-
-
 <app-child></app-child> 
+<app-print-animal *ngFor="let a of animal" [animal]="a" (fed)="animalIsFeed($event)"></app-print-animal>
+
+
+

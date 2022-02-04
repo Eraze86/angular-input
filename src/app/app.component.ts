@@ -8,5 +8,9 @@ import { Animal } from './modules/animals';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-animal: Animal [] = [new Animal("cat", "black"), new Animal("dog", "brown")];
+animal: Animal [] = [new Animal("Cat", "Black", 4), new Animal("Dog", "Brown",  4)];
+}
+animalIsFeed(Animal){
+ 
+
 }
